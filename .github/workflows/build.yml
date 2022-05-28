@@ -43,8 +43,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            jlongster/actual-server
-            ghcr.io/actualbudget/actual-server
+            spiritreader/actual-server
           tags: |
             type=ref,event=branch
             type=ref,event=pr
